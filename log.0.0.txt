@@ -1,0 +1,164 @@
+июн. 15, 2020 1:05:53 AM Main main
+INFO: The program is running
+июн. 15, 2020 1:05:53 AM JSON_Reader parseJSON
+INFO: Parsing JSON
+июн. 15, 2020 1:05:53 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:05:53 AM Zoo info
+INFO: [Lion1 with CALM status, Lion2 with CALM status, Lion3 with CALM status, Lion4 with CALM status, Bear1 with CALM status, Bear2 with CALM status, Cow1 with CALM status, Pig1 with CALM status, Pig2 with CALM status]
+июн. 15, 2020 1:06:00 AM Zoo notifyAnimals
+INFO: KEEPER_COME
+июн. 15, 2020 1:06:00 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:06:00 AM Zoo info
+INFO: [Lion1 with NOISE status, Lion2 with NOISE status, Lion3 with NOISE status, Lion4 with NOISE status, Bear1 with NOISE status, Bear2 with NOISE status, Cow1 with NOISE status, Pig1 with NOISE status, Pig2 with NOISE status]
+июн. 15, 2020 1:06:06 AM Zoo notifyAnimals
+INFO: MORNING
+июн. 15, 2020 1:06:06 AM Carnivore morning
+WARNING: Lion1 didn't sleep because it's noisy
+июн. 15, 2020 1:06:06 AM Carnivore morning
+WARNING: Lion2 didn't sleep because it's noisy
+июн. 15, 2020 1:06:06 AM Carnivore morning
+WARNING: Lion3 didn't sleep because it's noisy
+июн. 15, 2020 1:06:06 AM Carnivore morning
+WARNING: Lion4 didn't sleep because it's noisy
+июн. 15, 2020 1:06:06 AM Carnivore morning
+WARNING: Bear1 didn't sleep because it's noisy
+июн. 15, 2020 1:06:06 AM Carnivore morning
+WARNING: Bear2 didn't sleep because it's noisy
+июн. 15, 2020 1:06:06 AM Herbivore morning
+WARNING: Cow1 didn't sleep because it's noisy
+июн. 15, 2020 1:06:06 AM Herbivore morning
+WARNING: Pig1 didn't sleep because it's noisy
+июн. 15, 2020 1:06:06 AM Herbivore morning
+WARNING: Pig2 didn't sleep because it's noisy
+июн. 15, 2020 1:06:06 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:06:06 AM Zoo info
+INFO: [Lion1 with NOISE status, Lion2 with NOISE status, Lion3 with NOISE status, Lion4 with NOISE status, Bear1 with NOISE status, Bear2 with NOISE status, Cow1 with NOISE status, Pig1 with NOISE status, Pig2 with NOISE status]
+июн. 15, 2020 1:06:18 AM Zoo notifyAnimals
+INFO: THUNDER
+июн. 15, 2020 1:06:18 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:06:18 AM Zoo info
+INFO: [Lion1 with NOISE status, Lion2 with NOISE status, Lion3 with NOISE status, Lion4 with NOISE status, Bear1 with NOISE status, Bear2 with NOISE status, Cow1 with NOISE status, Pig1 with NOISE status, Pig2 with NOISE status]
+июн. 15, 2020 1:06:22 AM Zoo notifyAnimals
+INFO: FEEDING HERBIVORE
+июн. 15, 2020 1:06:22 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:06:22 AM Zoo info
+INFO: [Lion1 with NOISE status, Lion2 with NOISE status, Lion3 with NOISE status, Lion4 with NOISE status, Bear1 with NOISE status, Bear2 with NOISE status, Cow1 with CALM status, Pig1 with CALM status, Pig2 with CALM status]
+июн. 15, 2020 1:06:23 AM Zoo notifyAnimals
+INFO: FEEDING CARNIVORE
+июн. 15, 2020 1:06:23 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:06:23 AM Zoo info
+INFO: [Lion1 with CALM status, Lion2 with CALM status, Lion3 with CALM status, Lion4 with CALM status, Bear1 with CALM status, Bear2 with CALM status, Cow1 with CALM status, Pig1 with CALM status, Pig2 with CALM status]
+июн. 15, 2020 1:06:27 AM Zoo notifyAnimals
+INFO: NIGHT
+июн. 15, 2020 1:06:27 AM Carnivore night
+INFO: Lion1 is sleeping
+июн. 15, 2020 1:06:27 AM Carnivore night
+INFO: Lion2 is sleeping
+июн. 15, 2020 1:06:27 AM Carnivore night
+INFO: Lion3 is sleeping
+июн. 15, 2020 1:06:27 AM Carnivore night
+INFO: Lion4 is sleeping
+июн. 15, 2020 1:06:27 AM Carnivore night
+INFO: Bear1 is sleeping
+июн. 15, 2020 1:06:27 AM Carnivore night
+INFO: Bear2 is sleeping
+июн. 15, 2020 1:06:27 AM Herbivore night
+INFO: Cow1 is sleeping
+июн. 15, 2020 1:06:27 AM Herbivore night
+INFO: Pig1 is sleeping
+июн. 15, 2020 1:06:27 AM Herbivore night
+INFO: Pig2 is sleeping
+июн. 15, 2020 1:06:27 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:06:27 AM Zoo info
+INFO: [Lion1 with SLEEP status, Lion2 with SLEEP status, Lion3 with SLEEP status, Lion4 with SLEEP status, Bear1 with SLEEP status, Bear2 with SLEEP status, Cow1 with SLEEP status, Pig1 with SLEEP status, Pig2 with SLEEP status]
+июн. 15, 2020 1:06:30 AM Zoo notifyAnimals
+INFO: MORNING
+июн. 15, 2020 1:06:30 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:06:30 AM Zoo info
+INFO: [Lion1 with CALM status, Lion2 with CALM status, Lion3 with CALM status, Lion4 with CALM status, Bear1 with CALM status, Bear2 with CALM status, Cow1 with CALM status, Pig1 with CALM status, Pig2 with CALM status]
+июн. 15, 2020 1:06:39 AM Zoo notifyAnimals
+INFO: FEEDING HERBIVORE
+июн. 15, 2020 1:06:39 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:06:39 AM Zoo info
+INFO: [Lion1 with CALM status, Lion2 with CALM status, Lion3 with CALM status, Lion4 with CALM status, Bear1 with CALM status, Bear2 with CALM status, Cow1 with CALM status, Pig1 with CALM status, Pig2 with CALM status]
+июн. 15, 2020 1:06:41 AM Zoo notifyAnimals
+INFO: FEEDING CARNIVORE
+июн. 15, 2020 1:06:41 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:06:41 AM Zoo info
+INFO: [Lion1 with CALM status, Lion2 with CALM status, Lion3 with CALM status, Lion4 with CALM status, Bear1 with CALM status, Bear2 with CALM status, Cow1 with CALM status, Pig1 with CALM status, Pig2 with CALM status]
+июн. 15, 2020 1:06:46 AM Zoo notifyAnimals
+INFO: KEEPER_COME CARNIVORE
+июн. 15, 2020 1:06:46 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:06:46 AM Zoo info
+INFO: [Lion1 with NOISE status, Lion2 with NOISE status, Lion3 with NOISE status, Lion4 with NOISE status, Bear1 with NOISE status, Bear2 with NOISE status, Cow1 with CALM status, Pig1 with CALM status, Pig2 with CALM status]
+июн. 15, 2020 1:06:50 AM Zoo notifyAnimals
+INFO: NIGHT
+июн. 15, 2020 1:06:50 AM Carnivore night
+WARNING: Lion1 is noisy and can't sleep
+июн. 15, 2020 1:06:50 AM Carnivore night
+WARNING: Lion2 is noisy and can't sleep
+июн. 15, 2020 1:06:50 AM Carnivore night
+WARNING: Lion3 is noisy and can't sleep
+июн. 15, 2020 1:06:50 AM Carnivore night
+WARNING: Lion4 is noisy and can't sleep
+июн. 15, 2020 1:06:50 AM Carnivore night
+WARNING: Bear1 is noisy and can't sleep
+июн. 15, 2020 1:06:50 AM Carnivore night
+WARNING: Bear2 is noisy and can't sleep
+июн. 15, 2020 1:06:50 AM Herbivore night
+INFO: Cow1 is sleeping
+июн. 15, 2020 1:06:50 AM Herbivore night
+INFO: Pig1 is sleeping
+июн. 15, 2020 1:06:50 AM Herbivore night
+INFO: Pig2 is sleeping
+июн. 15, 2020 1:06:50 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:06:50 AM Zoo info
+INFO: [Lion1 with NOISE status, Lion2 with NOISE status, Lion3 with NOISE status, Lion4 with NOISE status, Bear1 with NOISE status, Bear2 with NOISE status, Cow1 with SLEEP status, Pig1 with SLEEP status, Pig2 with SLEEP status]
+июн. 15, 2020 1:07:01 AM Zoo notifyAnimals
+INFO: FEEDING CARNIVORE
+июн. 15, 2020 1:07:01 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:07:01 AM Zoo info
+INFO: [Lion1 with CALM status, Lion2 with CALM status, Lion3 with CALM status, Lion4 with CALM status, Bear1 with CALM status, Bear2 with CALM status, Cow1 with SLEEP status, Pig1 with SLEEP status, Pig2 with SLEEP status]
+июн. 15, 2020 1:07:07 AM Zoo notifyAnimals
+INFO: NIGHT
+июн. 15, 2020 1:07:07 AM Carnivore night
+INFO: Lion1 is sleeping
+июн. 15, 2020 1:07:07 AM Carnivore night
+INFO: Lion2 is sleeping
+июн. 15, 2020 1:07:07 AM Carnivore night
+INFO: Lion3 is sleeping
+июн. 15, 2020 1:07:07 AM Carnivore night
+INFO: Lion4 is sleeping
+июн. 15, 2020 1:07:07 AM Carnivore night
+INFO: Bear1 is sleeping
+июн. 15, 2020 1:07:07 AM Carnivore night
+INFO: Bear2 is sleeping
+июн. 15, 2020 1:07:07 AM Herbivore night
+INFO: Cow1 is sleeping
+июн. 15, 2020 1:07:07 AM Herbivore night
+INFO: Pig1 is sleeping
+июн. 15, 2020 1:07:07 AM Herbivore night
+INFO: Pig2 is sleeping
+июн. 15, 2020 1:07:07 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:07:07 AM Zoo info
+INFO: [Lion1 with SLEEP status, Lion2 with SLEEP status, Lion3 with SLEEP status, Lion4 with SLEEP status, Bear1 with SLEEP status, Bear2 with SLEEP status, Cow1 with SLEEP status, Pig1 with SLEEP status, Pig2 with SLEEP status]
+июн. 15, 2020 1:07:10 AM Zoo notifyAnimals
+INFO: MORNING
+июн. 15, 2020 1:07:10 AM Zoo info
+INFO: Current status of animals in the zoo : 
+июн. 15, 2020 1:07:10 AM Zoo info
+INFO: [Lion1 with CALM status, Lion2 with CALM status, Lion3 with CALM status, Lion4 with CALM status, Bear1 with CALM status, Bear2 with CALM status, Cow1 with CALM status, Pig1 with CALM status, Pig2 with CALM status]
