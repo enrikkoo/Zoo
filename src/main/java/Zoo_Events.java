@@ -3,8 +3,12 @@
  */
 public interface Zoo_Events {
     void keeperVisit();
+
     void feeding();
+
     void night();
+
     void morning();
+
     void thunder();
 }

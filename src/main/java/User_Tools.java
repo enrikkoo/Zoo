@@ -4,28 +4,29 @@
  */
 public class User_Tools {
 
-    private  Zoo zoo;
-    User_Tools(Zoo zoo){
+    private final Zoo zoo;
+
+    User_Tools(Zoo zoo) {
         this.zoo = zoo;
     }
 
-    void visit(AnimalTypes type){
-        if (type == AnimalTypes.HERBIVORE){
+    void visit(AnimalTypes type) {
+        if (type == AnimalTypes.HERBIVORE) {
             zoo.notifyAnimals(Event.KEEPER_COME);
-        }else {
-            zoo.notifyAnimals(Event.KEEPER_COME,type);
+        } else {
+            zoo.notifyAnimals(Event.KEEPER_COME, type);
         }
     }
 
-    void feed(AnimalTypes type){
-        zoo.notifyAnimals(Event.FEEDING,type);
+    void feed(AnimalTypes type) {
+        zoo.notifyAnimals(Event.FEEDING, type);
     }
 
-    void setThunder(){
+    void setThunder() {
         zoo.notifyAnimals(Event.THUNDER);
     }
 
-    void setMorning(){
+    void setMorning() {
         zoo.notifyAnimals(Event.MORNING);
     }
 

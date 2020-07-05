@@ -9,11 +9,12 @@ import java.util.logging.Logger;
 
 public class Main {
     public static Logger LOGGER;
+    public static Zoo zoo;
 
     /**
      * This block initializes the logger for logging
      */
-    static{
+    static {
         try {
             LogManager.getLogManager().readConfiguration(new FileInputStream("src/main/resources/log.properties"));
             LOGGER = Logger.getLogger(Main.class.getName());
@@ -21,16 +22,19 @@ public class Main {
             e.printStackTrace();
         }
     }
+
     /**
      * The main method creates a zoo object and an object to interact with the zoo,
      * then calls a recursive method that receives commands from the user
      */
     public static void main(String[] args) throws IOException {
-        Main.LOGGER.log(Level.INFO,"The program is running");
-        User_Tools ut = new User_Tools(new Zoo());
+        Main.LOGGER.log(Level.INFO, "The program is running");
+        zoo = new Zoo();
+        User_Tools ut = new User_Tools(zoo);
+        JSON_Reader.parseJSON();
         System.out.println("Welcome to the zoo!");
         menu(ut);
-        }
+    }
 
     /**
      * Recursive method that receives commands from the client
@@ -49,7 +53,7 @@ public class Main {
         System.out.println("");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String a = reader.readLine();
-        switch (a){
+        switch (a) {
             case "1":
                 ut.visit(AnimalTypes.HERBIVORE);
                 break;

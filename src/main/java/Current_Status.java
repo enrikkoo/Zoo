@@ -1,6 +1,6 @@
 /**
- *  3 possible states of the animal
+ * 3 possible states of the animal
  */
 public enum Current_Status {
-    SLEEP,CALM,NOISE;
+    SLEEP, CALM, NOISE;
 }

@@ -12,11 +12,11 @@
   "herbivoreAnimals": [
     {
       "kind": "Cow",
-      "count" : 2
+      "count": 2
     },
     {
       "kind": "Pig",
-      "count" : 3
+      "count": 3
     }
   ]
 }

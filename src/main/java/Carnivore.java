@@ -2,9 +2,9 @@ import java.util.logging.Level;
 
 public class Carnivore extends Animal {
 
-    public Carnivore(Current_Status status, String animal_kind,int number) {
+    public Carnivore(Current_Status status, String animal_kind, int number) {
         this.status = status;
-        this.animal_kind = animal_kind+number;
+        this.animal_kind = animal_kind + number;
     }
 
     /**
@@ -14,6 +14,7 @@ public class Carnivore extends Animal {
     public void keeperVisit() {
         setStatus(Current_Status.NOISE);
     }
+
     /**
      * When the animal is fed, it calms down
      */
@@ -28,11 +29,11 @@ public class Carnivore extends Animal {
      */
     @Override
     public void night() {
-        if (getStatus()==Current_Status.NOISE) {
-            Main.LOGGER.log(Level.WARNING,getAnimal_kind()+" is noisy and can't sleep");
-        }else{
+        if (getStatus() == Current_Status.NOISE) {
+            Main.LOGGER.log(Level.WARNING, getAnimal_kind() + " is noisy and can't sleep");
+        } else {
             setStatus(Current_Status.SLEEP);
-            Main.LOGGER.log(Level.INFO,getAnimal_kind()+" is sleeping");
+            Main.LOGGER.log(Level.INFO, getAnimal_kind() + " is sleeping");
         }
     }
 
